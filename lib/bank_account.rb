@@ -14,6 +14,7 @@ attr_reader :name
   
   def display_balance
     puts @balance
+  end
 end
 
 
