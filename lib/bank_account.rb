@@ -21,7 +21,7 @@ attr_reader :name
   end
       
   def close_account
-    @status == "close"
+    @status == "closed"
   end
 end
 
