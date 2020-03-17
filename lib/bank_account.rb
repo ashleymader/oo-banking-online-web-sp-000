@@ -17,7 +17,8 @@ attr_reader :name
   end
   
   def valid? 
-    @balance > 0 
+    if @balance > 0 == true 
+      true
   end
       
   
