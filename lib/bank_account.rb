@@ -21,7 +21,7 @@ attr_reader :name
   end
       
   def close_account
-    self.delete
+    self.clear
   end
 end
 
